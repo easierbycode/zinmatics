@@ -1,0 +1,11 @@
+.deck-container
+  %a.deck-prev-link{:href => "#", :title => "Previous"} ←
+  %a.deck-next-link{:href => "#", :title => "Next"} →
+
+  - for n in 1..4
+    - image_file = "Slide#{n}.jpg"
+    %section.slide.backgroundimg{id: "slide#{n}", style: "background-image: url(#{image_path image_file});"}
+
+  :coffee
+    $ ->
+      $.deck '.slide'

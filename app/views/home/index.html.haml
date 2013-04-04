@@ -1,0 +1,55 @@
+.container
+  .hero-unit
+    .row-fluid
+      .span4
+        %h2 Simple Analytics
+      .span6
+        %h3 Floorplan Lender Asset Tracking and Compliance Solutions
+        %a.btn.btn-primary.btn-large{href: home_learn_more_path}
+          Learn More
+          %b →
+  .row-fluid
+    .lead A comprehensive suite of products designed to meet the needs of the automobile sales and service value chain
+    %p ZinMatics solutions leverage the power of telematics along with advanced hardware, cloud computing and mobile applications to deliver real-time location and reporting metrics.
+  %hr/
+  .row
+    #testimonials.carousel.slide
+      .carousel-inner
+        .item.active
+          .span1.offset2
+            %p.ar
+              =image_tag 'big-quote.png'
+          .span7
+            %blockquote
+              %p "ZinMatics  helps us keep on top of the complicated logistics and paperwork of running a fleet of vehicles."
+              %small
+                %strong Paul West
+                CEO,
+                %a{:href => "#"}
+                  Superior Finance
+        .item
+          .span1.offset2
+            %p.ar
+              =image_tag 'big-quote.png'
+          .span7
+            %blockquote
+              %p "We haven't missed any service or maintenance that comes due regularly for our vehicles since we started using ZinMatics."
+              %small
+                %strong Kevin Smith
+                Service Manager,
+                %a{:href => "#"}
+                  MaxCar
+        .item
+          .span1.offset2
+            %p.ar
+              =image_tag 'big-quote.png'
+          .span7
+            %blockquote
+              %p "ZinMatics is a simple yet effective online solution that has proven to be a great asset to our department. It is a vital part of my vehicle program.
+              %small
+                %strong Dave Nelson
+                IT Manager,
+                %a{:href => "#"}
+                  Gotham Financing
+      %a.carousel-control.left{"data-slide" => "prev", :href => "#testimonials"} ←
+      %a.carousel-control.right{"data-slide" => "next", :href => "#testimonials"} →

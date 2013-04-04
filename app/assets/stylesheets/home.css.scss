@@ -1,0 +1,13 @@
+#home_controller {
+
+  &.learn_more {
+    .backgroundimg {
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    .navbar-static-top {
+      margin-bottom: 0;
+    }
+  }
+}
