@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
 
-gem 'mysql2'
+gem 'pg'
 gem 'bootstrap-sass'
 gem 'haml-rails'
 gem 'unicorn'

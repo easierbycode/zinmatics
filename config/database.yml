@@ -1,16 +1,10 @@
 defaults: &defaults
-  adapter: mysql2
-  username: root
-  password: 5tekapU3
+  adapter: postgresql
+  username: zinmatics
+  password:
   pool: 5
-  encoding: utf8
-  reconnect: false
-  host: localhost
+  encoding: unicode
 
 development:
   <<: *defaults
   database: zinmatics_development
-
-test:
-  <<: *defaults
-  database: zinmatics_test
